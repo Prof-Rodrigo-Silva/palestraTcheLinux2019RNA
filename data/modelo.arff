@@ -1,0 +1,24 @@
+@relation modelo
+
+@attribute indice numeric
+@attribute pk numeric
+@attribute altura numeric
+@attribute data {2018-12-25,2018-12-26,2018-12-27,2018-12-28,2018-12-29,2018-12-30,2018-12-31,2019-01-01,2019-01-02,2019-01-03,2019-01-04}
+@attribute nome {beltrano,fulano,ciclano}
+@attribute hora {18:45:00,19:47:00,20:49:00,20:50:00,18:52:00,21:57:00,21:59:00,22:00:00,22:05:00,20:10:00,20:12:00}
+@attribute situacao {Positivo,Negativo,positivo}
+@attribute ind_gordura numeric
+@attribute class {estatura_baixa,estatura_media,estatura_alta}
+
+@data
+1,11,1.4,2018-12-25,beltrano,18:45:00,Positivo,1.24,estatura_baixa
+2,12,1.49,2018-12-26,ciclano,19:47:00,Negativo,0,estatura_baixa
+3,13,1.55,2018-12-27,fulano,20:49:00,Negativo,0,estatura_baixa
+4,14,1.63,2018-12-28,beltrano,20:50:00,positivo,0,estatura_baixa
+5,15,1.69,2018-12-29,ciclano,18:52:00,Positivo,2.33,estatura_media
+6,16,1.71,2018-12-30,fulano,21:57:00,positivo,0.57,estatura_media
+7,17,1.76,2018-12-31,beltrano,21:59:00,Positivo,0,estatura_media
+8,18,1.78,2019-01-01,ciclano,22:00:00,Positivo,0,estatura_media
+9,19,1.85,2019-01-02,fulano,22:05:00,positivo,0,estatura_alta
+10,20,1.91,2019-01-03,beltrano,20:10:00,Negativo,0,estatura_alta
+11,21,1.99,2019-01-04,ciclano,20:12:00,Positivo,1.47,estatura_alta
