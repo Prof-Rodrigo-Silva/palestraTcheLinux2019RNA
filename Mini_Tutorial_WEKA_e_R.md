@@ -7,6 +7,7 @@ Conta com a apresentação e script do R usados como exemplos e arquivos tanto c
 Procedimentos Preliminares
 
 Instalação WEKA em distribuições Linux:
+
 1º - Acesse https://www.cs.waikato.ac.nz/ml/weka/downloading.html e faça o download da versão
 
 2º - Primeiro descompacte o arquivo zip. Isso criará um novo diretório chamado weka-SUA_VERSÃO.
